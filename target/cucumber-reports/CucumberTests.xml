@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="66.224">
+    <testcase classname="As a user I want to get ability to use Docs pages." name="Docs sections should contain appropriate columns." time="63.57">
+        <system-out><![CDATA[Given the user opens Cucumber website.......................................passed
+When the user clicks on the "Docs" section..................................passed
+And the user clicks on the "Installation" icon..............................passed
+Then there are 10 items in the left-side menu...............................passed
+And left-side menu contains the following links.............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="As a user i want to get ability to use menu sections." name="Docs sections should contain appropriate columns." time="64.962">
+        <system-out><![CDATA[Given the user opens Cucumber website.......................................passed
+When the user clicks on the "Docs" section..................................passed
+And the user clicks on the "Installation" icon..............................passed
+Then page with title "Installation" is displayed............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="As a user i want to get ability to use menu sections." name="Docs sections should contain appropriate columns. 2" time="62.633">
+        <system-out><![CDATA[Given the user opens Cucumber website.......................................passed
+When the user clicks on the "Docs" section..................................passed
+And the user clicks on the "API Docs" icon..................................passed
+Then page with title "API Automation" is displayed..........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="As a user i want to get ability to use menu sections." name="Docs sections should contain appropriate columns. 3" time="63.027">
+        <system-out><![CDATA[Given the user opens Cucumber website.......................................passed
+When the user clicks on the "Docs" section..................................passed
+And the user clicks on the "Gherkin Syntax" icon............................passed
+Then page with title "Gherkin Syntax" is displayed..........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="As a user i want to get ability to use menu sections." name="Docs sections should contain appropriate columns. 4" time="63.318">
+        <system-out><![CDATA[Given the user opens Cucumber website.......................................passed
+When the user clicks on the "Docs" section..................................passed
+And the user clicks on the "3rd Party Tools" icon...........................passed
+Then page with title "Related tools" is displayed...........................passed
+]]></system-out>
+    </testcase>
+</testsuite>
