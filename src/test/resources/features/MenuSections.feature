@@ -1,6 +1,7 @@
 Feature: As a user i want to get ability to use menu sections.
 
   @smoke
+    @severity=critical
   Scenario Outline: Docs sections should contain appropriate columns.
     Given the user opens Cucumber website.
     When the user clicks on the "Docs" section.

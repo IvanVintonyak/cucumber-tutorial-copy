@@ -11,7 +11,7 @@ import org.testng.annotations.DataProvider;
                 "junit:target/cucumber-reports/CucumberTests.xml",
                  "io.qameta.allure.cucumber6jvm.AllureCucumber6Jvm"},
         monochrome = false,
-        tags = "@smoke",
+        tags = "@smoke or @regression",
         glue = "org.example",
         features = "classpath:features"
 )

@@ -1,6 +1,7 @@
 Feature: As a user I want to get ability to use Docs pages.
 
-  @smoke
+  @regression
+  @issue=TEST-1234 @link=https://example.com
   Scenario: Docs sections should contain appropriate columns.
     Given the user opens Cucumber website.
     When the user clicks on the "Docs" section.
