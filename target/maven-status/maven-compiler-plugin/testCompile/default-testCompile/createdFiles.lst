@@ -1,5 +1,0 @@
-org\example\steps\DocsSteps.class
-org\example\hooks\ScreenshotHook.class
-org\example\hooks\DriverHooks.class
-org\example\steps\MenuSteps.class
-org\example\runner\CucumberTest.class
