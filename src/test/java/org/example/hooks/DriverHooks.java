@@ -12,7 +12,7 @@ public class DriverHooks {
         DriverManager.setupDriver();
     }
 
-    @After
+    @After(order=1)
     public void quitDriver(){
         DriverManager.quitDriver();
     }

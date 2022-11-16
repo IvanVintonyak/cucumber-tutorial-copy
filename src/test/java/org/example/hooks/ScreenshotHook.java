@@ -9,7 +9,7 @@ import org.openqa.selenium.TakesScreenshot;
 public class ScreenshotHook {
     private static final String PNG_FILE_EXTENSIONS = "image/png";
 
-    @After
+    @After(order=10)
     public void takeScreenshot(Scenario scenario) {
         scenario.attach(((TakesScreenshot) DriverManager.getDriver()).getScreenshotAs(OutputType.BYTES),
                 PNG_FILE_EXTENSIONS, scenario.getName());
